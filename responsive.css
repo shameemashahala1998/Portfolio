@@ -1,0 +1,360 @@
+@media (max-width: 1200px) {
+    .role {
+        font-size: 50px;
+    }
+    
+}
+
+@media (max-width: 992px) {
+    .nav-ul{
+        gap:30px;
+    }
+    .navbar {
+        padding: 10px 20px;
+    }
+    
+    .hero-section {
+        flex-direction: column;
+    }
+    .hero-content {
+        padding: 60px 30px;
+        text-align: center;
+        align-items: center;
+        width: 100%;
+        padding-bottom: 20px;
+    }
+    .hero-image-container {
+        min-height: 400px;
+    }
+    .role {
+        font-size: 40px;
+    }
+    .cta-buttons {
+        justify-content: center;
+    }
+    .description {
+        max-width: 100%;
+    }
+    .hero-img {
+        width: 100%;
+        max-height: 100%;
+        padding-left: 0;
+        transform: none;
+    }
+}
+
+@media (max-width: 576px) {
+    .navbar {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+    .nav-links {
+        display: none; /* Hide for very small screens or use a mobile menu */
+    }
+    .hire-button {
+        padding: 8px 15px;
+    }
+    .hero-content {
+        padding: 60px 20px;
+        padding-bottom: 10px;
+    }
+    .role {
+        font-size: 40px;
+    }
+    .cta-buttons {
+        flex-direction: column;
+        gap: 15px;
+    }
+    
+.hire-button{
+    display:none;
+   }
+  
+}
+
+    
+
+
+ @media screen and (min-width:991px) {
+        .nav_toggle {
+            display: none;
+        }
+    }
+
+
+
+
+       @media screen and (max-width: 991px) {
+        .mobile_nav.toggled {
+            opacity: 1;
+            right: 0;
+            transition: 0.5s all;
+            visibility: visible;
+        }
+    }
+
+
+
+
+     @media screen and (max-width: 991px) {
+        .mobile_nav {
+            display: flex;
+            visibility: collapse;
+            
+        }
+    }
+   @media screen and (max-width: 991px) {
+      .nav-ul{
+        display: none;
+      }
+       .navbar{
+        display: flex;
+        justify-content: space-between;
+      }
+    }
+@media (max-width: 480px) {
+  
+
+  .item-title h6 {
+    font-size: 15px;
+  }
+
+  .item-title p {
+    font-size: 12.5px;
+  }
+}
+@media (max-width: 992px) {
+  .about h3 {
+    font-size: 30px;
+  }
+   .cv-btn{
+     margin: auto;
+    }
+}
+
+@media (max-width: 576px) {
+  .about-section {
+    padding: 50px 0;
+  }
+  .about-img{
+    align-items: center;
+  }
+
+  .about {
+    text-align: center;
+    margin-top: 30px;
+  }
+
+  .about h3 {
+    font-size: 26px;
+  }
+
+  .about p {
+    font-size: 14px;
+  }
+}
+/* RESPONSIVE */
+@media (max-width: 992px) {
+  .services-grid {
+    grid-template-columns: 1fr;
+  }
+}
+@media (max-width: 768px){
+    .service-card{
+    transform:none !important;
+}
+#services{
+    padding-bottom: 200px;
+}
+}
+@media (max-width: 576px) {
+  .services-title {
+    font-size: 30px;
+  }
+
+  .service-card {
+    padding: 32px;
+  }
+}
+
+@media (max-width: 900px){
+  .coverflow{
+    height:320px;
+  }
+
+  .item{
+    width:340px;
+    height:210px;
+  }
+}
+
+/* ---------- MOBILE ---------- */
+@media (max-width: 600px){
+  .coverflow{
+    height:260px;
+    padding:0 30px;
+  }
+
+  .item{
+    width:260px;
+    height:160px;
+    border-radius:14px;
+  }
+
+  .item img{
+    border-radius:14px;
+  }
+
+  .nav{
+    font-size:32px;
+  }
+}
+
+
+
+/* RESPONSIVE */
+@media (max-width: 992px) {
+  .tools-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 576px) {
+  .tools-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+ 
+  }
+  
+/* moblilil ennamkurakka */
+@media (max-width: 480px) {
+  .container { width: 100%; }
+  
+ 
+  .panel:nth-of-type(4),
+  .panel:nth-of-type(5) {
+    display: none; /*3 in smallsize */
+  }
+ 
+    .panel {
+      border-radius: 20px;
+       flex: 1;
+       height: 50vh;
+  }
+  .panel.active {
+  flex: 10;
+  
+}
+}
+
+@media (max-width: 900px) {
+  .contact-wrapper {
+    grid-template-columns: 1fr;
+  }
+
+  .contact-form button {
+    align-self: center;
+  }
+
+  .section-title {
+    font-size: 28px;
+  }
+
+
+}
+
+@media (max-width: 576px) {
+
+    .title {
+        font-size: 26px;
+    }
+
+    .bio {
+        font-size: 15px;
+    }
+      .copyright{
+      font-size: 13px;
+    }
+   .socials a {
+     width: 25px;
+     height:25px;
+    }
+   
+    .icon {
+  width: 50px;
+  height: 50px;
+    }
+  
+
+.hire-button{
+    display:none;
+   }
+  
+}
+
+@media (max-width: 480px) {
+ 
+  .contact-info .desc {
+  font-size: 17px;
+}
+
+.info-box p {
+  font-size: 15px;
+}
+.info-box span {
+  color: var(--text);
+  font-size: 15px;
+  font-weight: 300;
+}
+.a-tag{
+    color: #f4f4f4;
+    font-size: 15px;
+    font-weight: 300;
+}
+.email{
+    color: #f4f4f4;
+    font-size: 14px;
+    font-weight: 300;
+}
+.icon img{
+  width: 40%
+}
+  .icon {
+  width: 40px;
+  height: 40px;
+  font-size: 14px;
+}
+.info-box {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.section-title-contact{
+    margin-top: 50px;
+    font-size: 30px;
+}
+.contact-info .highlight {
+  font-size: 28px;
+}
+.contact-info .bold {
+font-size: 25px;
+}
+.contact-form button {
+   padding: 15px 40px;
+   margin: auto;
+}
+}
+
+@media (max-width: 680px){
+  .works-container {
+  margin: 0;
+  padding: 0;
+}
+}
+@media (max-width: 480px) {
+  .project-card {
+    height: 450px;
+  margin-bottom:10vh;}
+  }
