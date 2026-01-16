@@ -528,7 +528,7 @@ align-items: center;
 /* ...................................Servive start...................................................... */
 #services{
  background-color: #000;
- padding-bottom: 380px;
+ padding-bottom: 300px;
  padding-top: 100px;
 
 
@@ -538,11 +538,11 @@ align-items: center;
 .heading{
 display: flex;
  flex-direction: column;
-align-items: center;
+ align-items: center;
   padding: 25px; 
-  margin-bottom:60px;
+  margin-bottom:20px;
   justify-content: center;
- /
+ 
 }
 
 .tag{
@@ -648,10 +648,10 @@ align-items: center;
 
 .card1{ transform:translateY(0); }
 .card2{ transform:translateY(50px); }
-.card3{ transform:translateY(50px); }
-.card4{ transform:translateY(100px); }
-.card5{ transform:translateY(100px); }
-.card6{ transform:translateY(150px); }
+.card3{ transform:translateY(30px); }
+.card4{ transform:translateY(90px); }
+.card5{ transform:translateY(70px); }
+.card6{ transform:translateY(120px); }
 /* .......................................Service end.................................................. */
 
 
