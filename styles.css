@@ -575,9 +575,9 @@ display: flex;
   position: relative;
   padding: 25px 30px;
   border-radius: 26px;
-  background: linear-gradient(180deg,rgba(255, 255, 255, 0.21),rgba(255, 255, 255, 0.188));
-  /* backdrop-filter: blur(18px);
-  -webkit-backdrop-filter: blur(18px); */
+  background: linear-gradient(180deg,rgba(29, 29, 29, 0.21),rgba(60, 60, 60, 0.188));
+  backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(18px);
   border: 1px solid rgba(255,255,255,0.15);
   transition: all 0.5s ease;
 }
@@ -635,14 +635,14 @@ display: flex;
 .service-card h4 {
   font-size: 25px;
   margin-bottom: 14px;
-  color: #9b75b2;
+  color: #cc92f3;
 }
 
 .service-card p {
-  font-size: 16px;
+  font-size: 17px;
   line-height: 1.7;
-  color: #dbd8d8;
-  font-weight: 400;
+  color: #d8d8d8;
+  font-weight: 350;
 }
 
 
