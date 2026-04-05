@@ -1259,11 +1259,6 @@ display: flex;
 }
    /* ................................................................................... */
    /* RESET */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
 
 /* SECTION */
 .project-section {
@@ -1356,7 +1351,8 @@ display: flex;
 /* ....Case studies........... */
 .case-studies {
   background: #f3f3f3;
-  padding: 80px 20px;
+  padding: 100px 20px 150px 20px ;
+  
 }
 
 /* HEADING */
@@ -1374,7 +1370,7 @@ color: #7807be;
 }
 
 .case-title p {
-  font-size: 16px;
+  font-size:16px;
   color: #555;
   line-height: 1.6;
   
