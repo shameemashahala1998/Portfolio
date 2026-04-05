@@ -357,4 +357,8 @@ font-size: 25px;
   .project-card {
     height: 450px;
   margin-bottom:10vh;}
+  
+  .highlight{
+    font-size: 22px;
   }
+}
