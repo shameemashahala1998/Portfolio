@@ -1272,7 +1272,7 @@ display: flex;
   align-items: center;
   justify-content: center;
   padding: 20px;
-  background: radial-gradient(circle at 30% 30%, #1a1a1a, #000);
+  background: radial-gradient(circle at 30% 30%, #474747, #4d4b4b);
   position: relative;
    overflow: hidden;
    background: linear-gradient(270deg, #000, #111, #000);
