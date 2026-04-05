@@ -633,7 +633,7 @@ display: flex;
   position: absolute;
   top: 20px;
   right: 30px;
-  font-size: 48px;
+  font-size: 40px;
   font-weight: 700;
   color: rgba(103, 103, 103, 0.471);
   transition: 0.5s;
@@ -1038,7 +1038,7 @@ transform: scale(1.2);
   } */
    #connects {
   background: radial-gradient(circle at top, #111, #000);
-  padding: 100px 20px;
+  padding: 100px 20px 20px 20px;
 }
 
 /* MAIN CARD */
@@ -1118,7 +1118,7 @@ transform: scale(1.2);
 
 /* TEXT */
 .info-box p {
-  font-size: 13px;
+  font-size: 16px;
   color: #aaa;
 }
 
@@ -1127,6 +1127,7 @@ transform: scale(1.2);
   font-size: 14px;
   color: #fff;
   text-decoration: none;
+  font-weight: 300;
 }
 .addr{
   display: flex;
@@ -1143,7 +1144,7 @@ transform: scale(1.2);
 /* INPUT PREMIUM */
 .contact-form input,
 .contact-form textarea {
-  background: rgba(255,255,255,0.05);
+  background: rgba(49, 49, 49, 0.833);
   border: 1px solid rgba(255,255,255,0.08);
   border-radius: 12px;
   padding: 16px;
@@ -1154,10 +1155,13 @@ transform: scale(1.2);
 
 .contact-form input:focus,
 .contact-form textarea:focus {
-  border: 1px solid #7c3aed;
+  /* border: 1px solid #7c3aed; */
   box-shadow: 0 0 10px rgba(124,58,237,0.4);
 }
-
+.contact-form ::placeholder {
+font-size: 14px;
+color: #949494;
+}
 /* BUTTON */
 
 .contact-form button {
