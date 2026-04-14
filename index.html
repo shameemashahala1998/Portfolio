@@ -30,7 +30,7 @@
 </head>
 
 <body>
-   
+
     <!-- .............................................Header Start.................................................................. -->
     <header>
         <div class="cursor"></div>
@@ -406,14 +406,16 @@
                             </div>
                         </div>
                         <div class="col-lg-6 col-md-12 col-sm-12">
-                            <form class="contact-form" data-aos="fade-left" data-aos-delay="200">
-                                <input type="text" placeholder="Your Name">
-                                <input type="tel" placeholder="Your Phone">
-                                <input type="email" placeholder="Your Email">
-                                <textarea placeholder="Your Message"></textarea>
+                            <form action="https://formsubmit.co/shameemashahala1998@gmail.com" method="POST" target="hidden_iframe" onsubmit="alert('Your message was sent successfully!'); setTimeout(() => this.reset(), 500);" class="contact-form" data-aos="fade-left" data-aos-delay="200">
+                                <input type="hidden" name="_captcha" value="false">
+                                <input type="text" name="name" placeholder="Your Name" required>
+                                <input type="tel" name="phone" placeholder="Your Phone">
+                                <input type="email" name="email" placeholder="Your Email" required>
+                                <textarea name="message" placeholder="Your Message" required></textarea>
 
-                                <button type="submit"><a href="mailto:shameemashahala1998@gmail.com">Submit</a></button>
+                                <button type="submit">Submit</button>
                             </form>
+                            <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;"></iframe>
 
                         </div>
                     </div>
@@ -518,7 +520,7 @@
     </script>
 
 
-   
+
 </body>
 
 </html>
